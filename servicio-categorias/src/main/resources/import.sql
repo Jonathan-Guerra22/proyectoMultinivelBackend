@@ -1,0 +1,10 @@
+INSERT INTO categorias(estadocategoria,nombrecategoria,generocategoria) VALUES('Activo', 'Jeans', "Masculino");
+INSERT INTO categorias(estadocategoria,nombrecategoria,generocategoria) VALUES('Activo', 'Jeans', "Femenino");
+INSERT INTO categorias(estadocategoria,nombrecategoria,generocategoria) VALUES('Deshabilitado', 'Chaquetas', "Masculino");
+INSERT INTO categorias(estadocategoria,nombrecategoria,generocategoria) VALUES('Activo', 'Chaquetas', "Femenino");
+
+
+INSERT INTO productos(estadoproducto,nombreproducto,precioproducto,colorproducto,tallaproducto,descripcionproducto,fotoproducto,categoria_id) VALUES("Habilitado","Levi's Skinny 501",320000,"Azul Oscuro","38","bragueta de botones, un corte a la cadera y un ajuste regular a través del muslo, para terminar en un corte ajustado en el tobillo. Este es el clásico y original jean renovado.",null,1);
+INSERT INTO productos(estadoproducto,nombreproducto,precioproducto,colorproducto,tallaproducto,descripcionproducto,fotoproducto,categoria_id) VALUES("Habilitado","Levi's Slim Fit 511",344000,"Azul","38","Estos jeans se encuentran en el punto ideal entre un jean skinny y un jean regular. Como probablemente adivinó por su nombre, presenta un corte ajustado a través del muslo que se estrecha hasta el tobillo",null,3);
+INSERT INTO productos(estadoproducto,nombreproducto,precioproducto,colorproducto,tallaproducto,descripcionproducto,fotoproducto,categoria_id) VALUES("Habilitado","Levi's 720 High-Rise Super Skinny",360000,"Azul Oscuro","30"," Este jean para mujer es slim a través de la cadera y el muslo, con nuestra apertura de pierna súper ajustada y cintura alta.",null,2);
+INSERT INTO productos(estadoproducto,nombreproducto,precioproducto,colorproducto,tallaproducto,descripcionproducto,fotoproducto,categoria_id) VALUES("Habilitado","Levi's 710 Super Skinny ",289000,"Azul","31","Este jean para mujer es slim a través de la cadera y el muslo, con nuestra apertura de pierna súper ajustada y con stretch adicional para mayor comodidad",null,4);
